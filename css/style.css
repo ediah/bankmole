@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'Arounder';
+    src: url("/fonts/arounder.ttf");
+}
+
+header, footer, .main, table {
+    width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+header, footer, .nav {
+    background-color: bisque;
+}
+
+header, footer, a {
+    color: chocolate;
+}
+
+header {
+    font-family: 'Arounder';
+    font-size: 300%;
+}
+
+footer, .nav, .main {
+    font-family: sans-serif;
+}
+
+.nav {
+    padding-bottom: 10px;
+    list-style-type: none;
+    margin: auto;
+}
+
+.nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px; 
+}
+
+a { 
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover { 
+    text-decoration: underline;
+}
+
+.main {
+    height: 400px;
+    font-size: 120%;
+}
+
+body {
+    background-color: rgb(255, 250, 243);
+}
+
+label {
+    padding-right: 10px; 
+}
+
+form {
+    text-align: center;
+    margin: auto;
+}
+
+p {
+    vertical-align: middle;
+    display: inline;
+    margin: auto;
+}
